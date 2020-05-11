@@ -1,0 +1,43 @@
+!----------------------------------------------------------------------
+! Basis Set Exchange
+! Version v0.8.12
+! https://www.basissetexchange.org
+!----------------------------------------------------------------------
+!   Basis set: STO-2G
+! Description: STO-2G Minimal Basis (2 functions/AO)
+!        Role: orbital
+!     Version: 1  (Data from Gaussian09)
+!----------------------------------------------------------------------
+
+
+
+Element: H : (2s) -> [1s]
+Shell: Index 0  Region: (none) AM: S
+Function: gto
+      0.1309756377E+01       0.4301284983E+00
+      0.2331359749E+00       0.6789135305E+00
+
+
+Element: C : (4s,2p) -> [2s,1p]
+Shell: Index 0  Region: (none) AM: S
+Function: gto
+      0.2738503303E+02       0.4301284983E+00
+      0.4874522075E+01       0.6789135305E+00
+
+Shell: Index 1  Region: (none) AM: SP
+Function: gto
+      0.1136748198E+01       0.4947176920E-01       0.5115407076E+00
+      0.2883093603E+00       0.9637824081E+00       0.6128198961E+00
+
+
+Element: O : (4s,2p) -> [2s,1p]
+Shell: Index 0  Region: (none) AM: S
+Function: gto
+      0.4998097117E+02       0.4301284983E+00
+      0.8896587673E+01       0.6789135305E+00
+
+Shell: Index 1  Region: (none) AM: SP
+Function: gto
+      0.1945236531E+01       0.4947176920E-01       0.5115407076E+00
+      0.4933633506E+00       0.9637824081E+00       0.6128198961E+00
+
